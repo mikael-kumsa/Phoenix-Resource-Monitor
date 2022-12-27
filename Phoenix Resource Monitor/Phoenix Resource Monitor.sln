@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoenix Resource Monitor", "Phoenix Resource Monitor\Phoenix Resource Monitor.csproj", "{DAE0CAEF-F478-4E5E-87A0-6FD9E8ABB58B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE0CAEF-F478-4E5E-87A0-6FD9E8ABB58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE0CAEF-F478-4E5E-87A0-6FD9E8ABB58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE0CAEF-F478-4E5E-87A0-6FD9E8ABB58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE0CAEF-F478-4E5E-87A0-6FD9E8ABB58B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB7C9F7C-BB32-4D96-A67C-9361B933AA49}
+	EndGlobalSection
+EndGlobal
