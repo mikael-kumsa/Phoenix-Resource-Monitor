@@ -61,7 +61,6 @@ namespace Phoenix_Resource_Monitor
             // Calling a folderSize() method
             long totalFolderSize = folderSize(folder);
             long totalFolderSizeMB = (long)(totalFolderSize * 0.000001);
-
             lblFolderSize.Text = totalFolderSizeMB.ToString() + "MB";
         }
 

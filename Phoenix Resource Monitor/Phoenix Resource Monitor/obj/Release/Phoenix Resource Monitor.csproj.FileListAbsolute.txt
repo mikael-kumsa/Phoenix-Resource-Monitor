@@ -1,0 +1,14 @@
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\bin\Release\Phoenix Resource Monitor.exe.config
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\bin\Release\Phoenix Resource Monitor.exe
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\bin\Release\Phoenix Resource Monitor.pdb
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\bin\Release\MetroFramework.Design.dll
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\bin\Release\MetroFramework.dll
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\bin\Release\MetroFramework.Fonts.dll
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\obj\Release\Phoenix Resource Monitor.csproj.AssemblyReference.cache
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\obj\Release\Phoenix_Resource_Monitor.Form1.resources
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\obj\Release\Phoenix_Resource_Monitor.Properties.Resources.resources
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\obj\Release\Phoenix Resource Monitor.csproj.GenerateResource.cache
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\obj\Release\Phoenix Resource Monitor.csproj.CoreCompileInputs.cache
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\obj\Release\Phoenix Resource Monitor.csproj.CopyComplete
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\obj\Release\Phoenix Resource Monitor.exe
+D:\Project\C#\Phoenix-Resource-Monitor\Phoenix Resource Monitor\Phoenix Resource Monitor\obj\Release\Phoenix Resource Monitor.pdb
