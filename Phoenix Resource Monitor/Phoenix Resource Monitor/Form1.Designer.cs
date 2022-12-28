@@ -45,7 +45,8 @@ namespace Phoenix_Resource_Monitor
             this.lblCpu = new MetroFramework.Controls.MetroLabel();
             this.lblRam = new MetroFramework.Controls.MetroLabel();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.lblFolderSize = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pRam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCPU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -184,27 +185,43 @@ namespace Phoenix_Resource_Monitor
             this.chart1.Size = new System.Drawing.Size(385, 113);
             this.chart1.TabIndex = 2;
             // 
-            // metroLabel3
+            // lblFolderSize
             // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.metroLabel3.Location = new System.Drawing.Point(353, 227);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(70, 19);
-            this.metroLabel3.TabIndex = 3;
-            this.metroLabel3.Text = "Version 0.1";
-            this.metroLabel3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.metroLabel3.UseCustomBackColor = true;
-            this.metroLabel3.UseCustomForeColor = true;
+            this.lblFolderSize.AutoSize = true;
+            this.lblFolderSize.BackColor = System.Drawing.Color.Transparent;
+            this.lblFolderSize.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.lblFolderSize.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblFolderSize.Location = new System.Drawing.Point(121, 234);
+            this.lblFolderSize.Name = "lblFolderSize";
+            this.lblFolderSize.Size = new System.Drawing.Size(33, 15);
+            this.lblFolderSize.TabIndex = 3;
+            this.lblFolderSize.Text = "0 MB";
+            this.lblFolderSize.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.lblFolderSize.UseCustomBackColor = true;
+            this.lblFolderSize.UseCustomForeColor = true;
+            // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.metroLabel4.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.metroLabel4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.metroLabel4.Location = new System.Drawing.Point(17, 234);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(98, 15);
+            this.metroLabel4.TabIndex = 3;
+            this.metroLabel4.Text = "Temp Folder Size: ";
+            this.metroLabel4.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.metroLabel4.UseCustomBackColor = true;
+            this.metroLabel4.UseCustomForeColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 251);
-            this.Controls.Add(this.metroLabel3);
+            this.ClientSize = new System.Drawing.Size(427, 257);
+            this.Controls.Add(this.metroLabel4);
+            this.Controls.Add(this.lblFolderSize);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.metroProgressBarRAM);
             this.Controls.Add(this.metroLabel2);
@@ -241,7 +258,8 @@ namespace Phoenix_Resource_Monitor
         private MetroFramework.Controls.MetroLabel lblCpu;
         private MetroFramework.Controls.MetroLabel lblRam;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private MetroFramework.Controls.MetroLabel metroLabel3;
+        private MetroFramework.Controls.MetroLabel lblFolderSize;
+        private MetroFramework.Controls.MetroLabel metroLabel4;
     }
 }
 
