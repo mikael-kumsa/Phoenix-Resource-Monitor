@@ -1,24 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO;
 
 namespace Phoenix_Resource_Monitor
 {
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
+        readonly string userName = Environment.UserName;
         public Form1()
         {
             InitializeComponent();
         }
 
-        static long folderSize(DirectoryInfo folder)
+        static long FolderSize(DirectoryInfo folder)
         {
             long totalSizeOfDir = 0;
 
@@ -37,14 +30,14 @@ namespace Phoenix_Resource_Monitor
             // Loop through every subdirectory and get size of each
             foreach (DirectoryInfo dir in subFolders)
             {
-                totalSizeOfDir += folderSize(dir);
+                totalSizeOfDir += FolderSize(dir);
             }
 
             // Return the total size of folder
             return totalSizeOfDir;
         }
 
-        private void timer_Tick(object sender, EventArgs e)
+        private void Timer_Tick(object sender, EventArgs e)
         {
             string userName = Environment.UserName;
             float fcpu = pCPU.NextValue();
@@ -59,7 +52,7 @@ namespace Phoenix_Resource_Monitor
             DirectoryInfo folder = new DirectoryInfo(@"C:/Users/" + userName + "/AppData/Local/Temp");
 
             // Calling a folderSize() method
-            long totalFolderSize = folderSize(folder);
+            long totalFolderSize = FolderSize(folder);
             long totalFolderSizeMB = (long)(totalFolderSize * 0.000001);
             lblFolderSize.Text = totalFolderSizeMB.ToString() + "MB";
         }
@@ -70,6 +63,10 @@ namespace Phoenix_Resource_Monitor
             timer.Start();
         }
 
-        
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            DirectoryInfo folder = new DirectoryInfo(@"C:/Users/" + userName + "/AppData/Local/Temp");
+            folder.Delete(true);
+        }
     }
 }
