@@ -63,10 +63,18 @@ namespace Phoenix_Resource_Monitor
             timer.Start();
         }
 
-        private void BtnDelete_Click(object sender, EventArgs e)
+        private void metroToggle1_CheckedChanged(object sender, EventArgs e)
         {
-            DirectoryInfo folder = new DirectoryInfo(@"C:/Users/" + userName + "/AppData/Local/Temp");
-            folder.Delete(true);
+            if (!metroToggle1.Checked)
+            {
+                this.ShowInTaskbar = true;
+            }
+            else
+            {
+                this.ShowInTaskbar = false;
+            }
         }
+
+        
     }
 }

@@ -47,7 +47,8 @@ namespace Phoenix_Resource_Monitor
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.lblFolderSize = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.btnDelete = new MetroFramework.Controls.MetroButton();
+            this.metroToggle1 = new MetroFramework.Controls.MetroToggle();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pRam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCPU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -216,25 +217,39 @@ namespace Phoenix_Resource_Monitor
             this.metroLabel4.UseCustomBackColor = true;
             this.metroLabel4.UseCustomForeColor = true;
             // 
-            // btnDelete
+            // metroToggle1
             // 
-            this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(166, 250);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(110, 29);
-            this.btnDelete.TabIndex = 4;
-            this.btnDelete.Text = "Delete Temp Files";
-            this.btnDelete.UseCustomBackColor = true;
-            this.btnDelete.UseCustomForeColor = true;
-            this.btnDelete.UseSelectable = true;
-            this.btnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
+            this.metroToggle1.AutoSize = true;
+            this.metroToggle1.Location = new System.Drawing.Point(321, 259);
+            this.metroToggle1.Name = "metroToggle1";
+            this.metroToggle1.Size = new System.Drawing.Size(80, 17);
+            this.metroToggle1.TabIndex = 4;
+            this.metroToggle1.Text = "Off";
+            this.metroToggle1.UseSelectable = true;
+            this.metroToggle1.CheckedChanged += new System.EventHandler(this.metroToggle1_CheckedChanged);
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.metroLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.metroLabel3.Location = new System.Drawing.Point(209, 260);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(110, 15);
+            this.metroLabel3.TabIndex = 5;
+            this.metroLabel3.Text = "Show Icon In Taskbar";
+            this.metroLabel3.UseCustomBackColor = true;
+            this.metroLabel3.UseCustomForeColor = true;
+            this.metroLabel3.UseStyleColors = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(410, 285);
-            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.metroLabel3);
+            this.Controls.Add(this.metroToggle1);
             this.Controls.Add(this.metroLabel4);
             this.Controls.Add(this.lblFolderSize);
             this.Controls.Add(this.chart1);
@@ -275,7 +290,8 @@ namespace Phoenix_Resource_Monitor
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private MetroFramework.Controls.MetroLabel lblFolderSize;
         private MetroFramework.Controls.MetroLabel metroLabel4;
-        private MetroFramework.Controls.MetroButton btnDelete;
+        private MetroFramework.Controls.MetroToggle metroToggle1;
+        private MetroFramework.Controls.MetroLabel metroLabel3;
     }
 }
 
